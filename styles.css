@@ -60,7 +60,7 @@ header input
         color: #313131;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
-        border-bottom: 3px solid rgb(190, 93, 2);
+        border-bottom: 3px solid rgba(255,255,255,0.5);
         font-weight: 300;
         font-size: 20px;
     }
@@ -84,7 +84,7 @@ header input:focus
         color: #313131;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-        border-bottom: 3px solid rgb(190, 93, 2);
+        border-bottom: 3px solid rgba(255,255,255,0.5);
         font-weight: 300;
         font-size: 20px;
         cursor: pointer;
