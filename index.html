@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/3a31387d60.js" crossorigin="anonymous"></script>
+    <title>Weathergram.com</title>
+</head>
+<body id="theme">
+    <section class="title">
+        <h2>Weathergram</h2>
+     </section>
+    <div class="app-wrap">
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Enter a City">
+            <button type="button" class="search-btn" onclick="gotClicked()"><i class="fa fa-search"></i></button>
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">City,CT</div>
+                <div class="date">Day Date Month Year</div>
+            </section>
+            <div class="current">
+                <div class="temp"><span class="temp-degree">T</span><span class="t-unit">°C</span></div>
+                <div class="weather"></div>
+                <div class="hi-low"></div>
+            </div>
+            <div class="icon"></div>
+            <section class="details">
+                <div class="humidity-data">
+                    <span><i class="fas fa-tint"></i></span>
+                    <p>Humidity</p>
+                    <span class="details-humid"></span>
+                </div>
+                <div class="wind-data">
+                    <span><i class="fas fa-wind"></i></span>
+                    <p>Wind</p>
+                    <span class="details-wind"></span>
+                </div>
+                <div class="pressure-data">
+                    <span><i class="fas fa-thermometer-half"></i></span>
+                    <p>Pressure</p>
+                    <span class="details-pressure"></span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="about"> 
+        <h4>&copy; Weathergram.com </h4>
+        <small>Developed by -  Harsh Maithia</small> 
+    </footer>
+
+<script src="app.js"></script>
+</body>
+</html>
